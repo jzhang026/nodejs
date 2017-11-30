@@ -1,6 +1,6 @@
 var net = require('net');
 
-var client = net.connect({port: 8088}, function() {
+var client = net.connect({port: 8124}, function() {
   console.log('client connected')
   // client.write('hell i am No.1 client\n');
 })
